@@ -1,18 +1,19 @@
 {
   "name": "Lazy Stack Overflow",
   "version": "1.0",
-  "description": "Click to get your accepted answer instantly!",
-  "permissions": ["declarativeContent", "activeTab"],
-  "background": {
-    "scripts": ["background.js"],
-    "persistent": false
-  },
-  "page_action": {
-    "default_popup": "popup.html",
-    "default_icon": {
-      "158": "images/so-icon.png"
+  "description": "Scroll to the accepted answer instantly!",
+  "content_scripts": [
+    {
+      "matches": [
+        "http://stackoverflow.com/questions/*",
+        "https://stackoverflow.com/questions/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_end"
     }
-  },
+  ],
   "icons": {
     "158": "images/so-icon.png"
   },
