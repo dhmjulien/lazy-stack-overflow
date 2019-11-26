@@ -21,10 +21,6 @@ const displayCopy = element => {
   setTimeout(() => copied.remove(), 3000);
 }
 
-if (answer !== null) {
-  answer.scrollIntoView({ behavior: 'smooth' });
-}
-
 for (let i = 0; i < codes.length; i++) {
   let snippet = codes[i].innerHTML;
   codes[i].parentNode.style.cursor = 'pointer';
@@ -33,3 +29,9 @@ for (let i = 0; i < codes.length; i++) {
     displayCopy(codes[i].parentNode);
   });
 }
+
+chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
+  if (answer !== null) {
+    answer.scrollIntoView({ behavior: 'smooth' });
+  }
+});

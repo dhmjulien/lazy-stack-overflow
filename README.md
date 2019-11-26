@@ -2,7 +2,7 @@
 
 ⚙️ Chrome extension to get instantly your answer on Stack Overflow (yup, I'm lazy).
 
-👉 When you get to a Stack Overlfow thread, the extension scrolls automatically to the "accepted" answer.
+👉 When you get to a Stack Overlfow thread, click on the extension's button to scroll automatically to the "accepted" answer.
 
 🖱 You can also double-click on code snippets on the page to copy them to your clipboard!
 
