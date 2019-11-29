@@ -2,7 +2,7 @@
 
 ⚙️ Chrome extension to instantly get your answer on Stack Overflow (yup, I'm lazy).
 
-✔️ It also works on all stackexchange websites like askubuntu.com, superuser.com, serverfault.com and more... (find the official list [here](https://stackexchange.com/sites))
+✔️ It also works on all StackExchange websites like askubuntu.com, superuser.com, serverfault.com and more... (find the official list [here](https://stackexchange.com/sites))
 
 ## How to use it ?
 
