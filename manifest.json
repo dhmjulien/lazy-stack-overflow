@@ -10,8 +10,8 @@
   "content_scripts": [
     {
       "matches": [
-        "http://stackoverflow.com/questions/*",
-        "https://stackoverflow.com/questions/*"
+        "http://*.com/questions/*",
+        "https://*.com/questions/*"
       ],
       "js": [
         "content.js"
