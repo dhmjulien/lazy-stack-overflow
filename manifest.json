@@ -3,9 +3,9 @@
   "version": "1.0",
   "description": "Scroll to the accepted answer instantly!",
   "icons": {
-    "32": "images/so-32.png",
-    "64": "images/so-64.png",
-    "128": "images/so-128.png"
+    "32": "images/32.png",
+    "64": "images/64.png",
+    "128": "images/128.png"
   },
   "content_scripts": [
     {
@@ -26,9 +26,9 @@
   },
   "browser_action": {
     "default_icon": {
-      "32": "images/so-32.png",
-      "64": "images/so-64.png",
-      "128": "images/so-128.png"
+      "32": "images/32.png",
+      "64": "images/64.png",
+      "128": "images/128.png"
     }
   },
   "manifest_version": 2
