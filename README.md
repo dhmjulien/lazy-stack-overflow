@@ -11,8 +11,9 @@
 🖱 You can also double-click on code snippets on the page to copy them to your clipboard!
 
 ## Installation process
+Chrome Web Store [extension link](https://chrome.google.com/webstore/detail/lazy-stack-overflow/eajkinanmbmcnalbkmbakkcfakpenkfg?hl=fr)
 
-Since this extension is not on the Chrome Web Store yet, here's how you can install it:
+or
 
 * Clone this repo or download it
 * In Chrome go to `chrome://extensions`
